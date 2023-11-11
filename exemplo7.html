@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - 07</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 3em;
+        }
+
+        header h1 {
+            margin-bottom: 1em;
+            text-align: center;
+        }
+
+        .flex-container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 600px;
+            height: 450px;
+            border: 1px solid #004d40;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-flow: column wrap;
+        }
+
+        div {
+            color: #004d40;
+            font-size: 2.5em;
+            padding: 10px;
+            background-color: #f4ff81;
+            height: 150px;
+            margin: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>flexbox 07 - <code>align-items</code> </h1>
+    </header>
+    <main class="flex-container">
+        <div>1 - um</div>
+        <div>2 - dois</div>
+        <div>3 - tres</div>
+        <div>4 - quatro</div>
+        <div>5 - cinco</div>
+        <div>6 - seis</div>
+    </main>
+</body>
+
+</html>
